@@ -243,41 +243,6 @@ body {
   color: #333;
 }
 
-/* Style pour l'entête */
-header {
-  background-color: #e34c26; /* Couleur spécifique pour HTML */
-  color: #fff;
-  padding: 1.5rem;
-  text-align: center;
-}
-
-header h1 {
-  margin: 0;
-  font-size: 2rem;
-}
-
-header a.back-button {
-  display: inline-block;
-  margin-top: 1rem;
-  padding: 0.75rem 1.5rem;
-  background-color: #333;
-  color: #fff;
-  border-radius: 5px;
-  text-decoration: none;
-  font-size: 1rem;
-  font-weight: bold;
-  transition: background-color 0.3s ease, transform 0.3s ease;
-}
-
-header a.back-button:hover {
-  background-color: #555;
-  transform: scale(1.05);
-}
-
-header a.back-button:active {
-  background-color: #222;
-}
-
 /* Layout principal : sidebar + contenu */
 main {
   display: flex;
