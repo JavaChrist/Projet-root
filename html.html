@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Catégorie HTML</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/themes/prism.css"
+      rel="stylesheet"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/prism.js"></script>
+  </head>
+
+  <body>
+    <header>
+      <h1>Catégorie HTML</h1>
+      <a href="index.html" class="back-button">← Retour à l'accueil</a>
+    </header>
+
+    <main>
+      <!-- Menu latéral pour les sous-catégories -->
+      <aside class="sidebar">
+        <h2>Sous-Catégories</h2>
+        <nav>
+          <ul>
+            <li><a href="#balises-html">Balises HTML</a></li>
+            <li><a href="#attributs-html">Attributs HTML</a></li>
+            <li><a href="#structure-document">Structure du Document</a></li>
+            <li>
+              <a href="#elements-inline-block">Éléments Inline & Block</a>
+            </li>
+          </ul>
+        </nav>
+      </aside>
+
+      <!-- Contenu principal de la catégorie HTML -->
+      <section class="content">
+        <article id="balises-html">
+          <h2>Balises HTML</h2>
+          <p>
+            Les balises HTML définissent la structure d'une page. Voici un
+            exemple de balise simple :
+          </p>
+          <pre><code class="language-html">&lt;p&gt;Ceci est un paragraphe en HTML&lt;/p&gt;</code></pre>
+        </article>
+
+        <article id="attributs-html">
+          <h2>Attributs HTML</h2>
+          <p>
+            Les attributs fournissent des informations supplémentaires sur les
+            éléments HTML. Par exemple :
+          </p>
+          <pre><code class="language-html">&lt;a href="https://example.com" target="_blank"&gt;Lien vers un site externe&lt;/a&gt;</code></pre>
+        </article>
+
+        <article id="structure-document">
+          <h2>Structure du Document</h2>
+          <p>
+            La structure d'un document HTML est essentielle pour créer des pages
+            bien organisées. Un exemple de structure basique :
+          </p>
+          <pre><code class="language-html">
+&lt;!DOCTYPE html&gt;
+&lt;html lang="fr"&gt;
+  &lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;title&gt;Titre de la page&lt;/title&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;h1&gt;Bienvenue sur ma page&lt;/h1&gt;
+    &lt;p&gt;Ceci est un paragraphe&lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+          </code></pre>
+        </article>
+
+        <article id="elements-inline-block">
+          <h2>Éléments Inline & Block</h2>
+          <p>
+            En HTML, les éléments se comportent différemment en fonction de leur
+            nature (inline ou block). Voici un exemple :
+          </p>
+          <pre><code class="language-html">
+&lt;div&gt;Ceci est un élément de type block&lt;/div&gt;
+&lt;span&gt;Ceci est un élément de type inline&lt;/span&gt;
+          </code></pre>
+        </article>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
